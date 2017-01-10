@@ -114,6 +114,7 @@ td:hover {
 #label {
     position: fixed;
     background-image: radial-gradient(at top, rgba(84, 84, 84, 1) 10%, rgba(255, 255, 255, 0) 20%);
+    background-image:  -webkit-radial-gradient(top, rgba(84, 84, 84, 1) 10%, rgba(255, 255, 255, 0) 20%);
     left: 50%;
     transform: translate(-50%, 0%);
     height: 2em;
