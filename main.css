@@ -1,0 +1,141 @@
+html {
+    background: #545454;
+    background: url("img/background2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+body {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: Sleek, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: Sleek;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+a {
+    width: inherit;
+    height: inherit;
+    
+}
+
+p {
+    color: white;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+div {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icon {
+    width: 2.4em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+
+#toolbar {
+    position: fixed;
+    width: 100%;
+    height: 2.5em;
+    top: 0;
+    left: 0;
+    padding-bottom: .5em;
+    padding-top: .1em;
+    background: #545454; /* some styling */
+    display: table-cell;
+}
+
+#footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:2.5em;
+    padding: .5em 0;
+    width:100%;
+    background:#545454;
+}
+
+
+#intro {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30em;
+    height: 15em;
+    background-color: white;
+    outline: 2px solid black;
+    outline-offset: -1.2em;
+    line-height: 15em;
+}
+
+td {
+    height: inherit;
+    background: #545454;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+td:hover {
+    background: #EC644B;
+}
+
+#nav {
+    margin: 0 auto;
+    /*box-shadow: 0em 1em 1em #545454;*/
+    background-image: linear-gradient(to bottom, #545454 10%, #CCCCCC 50%, #545454 90%);
+    background-origin: border-box;
+}
+
+#label {
+    position: fixed;
+    background-image: radial-gradient(at top, rgba(84, 84, 84, 1) 10%, rgba(255, 255, 255, 0) 20%);
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 2em;
+    width: 100%;
+    line-height: 2em;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+}
+
+@font-face {
+    font-family: Sleek;
+    src: url("fonts/GeosansLight.ttf") format('truetype');
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
