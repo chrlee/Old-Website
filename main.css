@@ -73,8 +73,7 @@ div {
     position:fixed;
     left:0;
     bottom:0;
-    height:2.5em;
-    padding: .5em 0;
+    height:3em;
     width:100%;
     background:#545454;
 }
@@ -142,5 +141,31 @@ td:hover {
     100% {
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #toolbar, #footer {
+        height: 5em;
+        line-height: 5em;
+    }
+    .icon{
+        width: 4.8em;
+    }
+    #label {
+        top: 5.4em;
+        height: 4em;
+        width: 200%;
+    }
+    #intro {
+        width: 60%;
+        height: inherit;
+        line-height: 20em;
+    }
+  p, h1, h2, h3, h4, h5, h6 {
+      font-size: 3em;
+    }
+    p {
+        margin-top: 0;
     }
 }
