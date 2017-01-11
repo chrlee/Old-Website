@@ -162,7 +162,7 @@ div {
 }
 
 @media screen and (max-width: 1020px) {
-    #toolbar, #footer {
+    #header, #footer {
         height: 5em;
         line-height: 5em;
     }
