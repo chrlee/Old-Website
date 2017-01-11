@@ -181,8 +181,12 @@ div {
     }
     #about {
         width: 90%;
-        max-height: 80%;
+        max-width: 90%;
+        height: inherit;
+        max-height: inherit;
         line-height: 20em;
+        top: 10.5em;
+        transform: translate(-50%, 0);
     }
   p, h1, h2, h3, h4, h5, h6 {
       font-size: 3em;
