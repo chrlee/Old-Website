@@ -90,6 +90,7 @@ div {
     outline: 2px solid black;
     outline-offset: -1.2em;
     line-height: 15em;
+    white-space: nowrap;
 }
 
 td {
