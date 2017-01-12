@@ -180,15 +180,15 @@ div {
         line-height: 20em;
     }
     #about {
-        position: absolute;
+        position: relative;
         width: 90%;
         max-width: 90%;
         height: inherit;
         max-height: inherit;
         line-height: 20em;
         margin-bottom: 6em;
-        top: 30%;
-        transform: translate(0, -50%);
+        top: 40%;
+        transform: translate(-50%, 0);
     }
   p, h1, h2, h3, h4, h5, h6 {
       font-size: 3em;
