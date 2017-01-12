@@ -67,6 +67,7 @@ div {
     padding-bottom: .6em;
     background: #545454; /* some styling */
     display: table-cell;
+    z-index: 2;
 }
 
 #footer {
@@ -106,6 +107,7 @@ div {
     outline-offset: -1.2em;
     line-height: auto;
     padding: 1.5em;
+    z-index: 1;
 }
 
 
@@ -143,6 +145,7 @@ div {
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
+    z-index: 3;
 }
 
 @font-face {
@@ -187,6 +190,7 @@ div {
         max-height: inherit;
         line-height: 20em;
         margin-bottom: 6em;
+        margin-top: 6em;
         top: 40%;
         transform: translate(-50%, 0);
     }
